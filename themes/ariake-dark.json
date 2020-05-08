@@ -35,7 +35,18 @@
         "editorHoverWidget.background": "#232830",
         "editorHoverWidget.border": "#343d46",
         "diffEditor.insertedTextBackground": "#43d08a10",
-        "diffEditor.removedTextBackground": "#e052521a"
+        "diffEditor.removedTextBackground": "#e052521a",
+        "debugToolBar.background": "#1F212A",
+        "debugIcon.stepIntoForeground": "#85b1e0",
+        "debugIcon.stepOutForeground": "#85b1e0",
+        "debugIcon.continueForeground": "#85b1e0",
+        "debugIcon.stepOverForeground": "#85b1e0",
+        "debugIcon.pauseForeground": "#85b1e0",
+        "debugIcon.disconnectForeground": "#F03A47",
+        "debugIcon.stopForeground": "#F03A47",
+        "editor.stackFrameHighlightBackground": "#343d46",
+        "debugIcon.breakpointCurrentStackframeForeground": "#D2DBFE",
+        "debugIcon.breakpointForeground": "#F03A47",
     },
 	"tokenColors": [
 		{
