@@ -47,6 +47,7 @@
         "editor.stackFrameHighlightBackground": "#343d46",
         "debugIcon.breakpointCurrentStackframeForeground": "#BDC5E8",
         "debugIcon.breakpointForeground": "#F03A47",
+        "editorRuler.foreground": "#2D303A"
     },
 	"tokenColors": [
 		{
@@ -77,7 +78,10 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
 			"settings": {
 				"foreground": "#555C77"
 			}
@@ -218,7 +222,10 @@
 			}
 		},
 		{
-			"scope": "meta.preprocessor.string",
+			"scope": [
+                "meta.preprocessor.string",
+                "punctuation.definition.string"
+            ],
 			"settings": {
 				"foreground": "#9AEFEA"
 			}
@@ -323,7 +330,10 @@
 			}
 		},
 		{
-			"scope": "keyword.control",
+            "scope": [
+                "keyword.control",
+                "punctuation.definition.directive"
+            ],
 			"settings": {
 				"foreground": "#7E7EDD"
 			}
