@@ -45,7 +45,7 @@
         "debugIcon.disconnectForeground": "#F03A47",
         "debugIcon.stopForeground": "#F03A47",
         "editor.stackFrameHighlightBackground": "#343d46",
-        "debugIcon.breakpointCurrentStackframeForeground": "#D2DBFE",
+        "debugIcon.breakpointCurrentStackframeForeground": "#BDC5E8",
         "debugIcon.breakpointForeground": "#F03A47",
     },
 	"tokenColors": [
@@ -85,7 +85,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#D2DBFE"
+				"foreground": "#BDC5E8"
 			}
 		},
 		{
@@ -189,13 +189,13 @@
 		{
 			"scope": "punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#7D829B"
 			}
 		},
 		{
 			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#6796e6"
+				"foreground": "#7D829B"
 			}
 		},
 		{
@@ -208,7 +208,7 @@
 			"name": "brackets of XML/HTML tags",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#7D829B"
 			}
 		},
 		{
@@ -291,7 +291,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#7D829B"
 			}
 		},
 		{
@@ -359,7 +359,7 @@
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#7D829B"
 			}
 		},
 		{
@@ -452,7 +452,7 @@
 		{
 			"scope": "entity.name.operator.custom-literal",
 			"settings": {
-				"foreground": "#DADADA"
+				"foreground": "#C0C5CE"
 			}
 		},
 		{
@@ -479,13 +479,7 @@
 		{
 			"scope": "variable.other.enummember",
 			"settings": {
-				"foreground": "#D2DBFE"
-			}
-		},
-		{
-			"scope": "variable.other.property",
-			"settings": {
-				"foreground": "#DADADA"
+				"foreground": "#BDC5E8"
 			}
 		},
 		{
@@ -493,6 +487,24 @@
 			"settings": {
 				"foreground": "#93defb"
 			}
-		}
+        },
+        {
+            "scope": "entity.name.function.member",
+            "settings": {
+                "foreground": "#BDC5E8"
+            }
+        },
+        {
+            "scope": "variable.other.property",
+            "settings": {
+                "foreground": "#BDC5E8"
+            }
+        },
+        {
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#7D829B"
+            }
+        },
 	]
 }
