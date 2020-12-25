@@ -1,9 +1,9 @@
 {
-    "name": "ariake-dark-2.0",
+    "name": "ariake-dark-20",
     "displayName": "Ariake Dark 2.0",
     "description": "A more complete Ariake Dark theme.",
     "version": "1.0.1",
-    "publisher": "Alexa Griffin",
+    "publisher": "AlexaGriffin",
     "preview": false,
     "icon": "assets/icon.png",
     "readme": "README.md",
@@ -17,7 +17,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/alexa-griffin/ariake-dark-2.0.gits"
+        "url": "https://github.com/alexa-griffin/ariake-dark-2.0.git"
     },
     "homepage": "https://github.com/Microsoft/vscode-cpptools",
     "qna": "https://github.com/alexa-griffin/ariake-dark-2.0/issues",
