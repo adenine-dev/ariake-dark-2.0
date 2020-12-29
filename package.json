@@ -1,44 +1,44 @@
 {
-    "name": "ariake-dark-20",
-    "displayName": "Ariake Dark 2.0",
-    "description": "A more complete Ariake Dark theme.",
-    "version": "1.1.0",
-    "publisher": "AlexaGriffin",
-    "preview": false,
-    "readme": "README.md",
-    "author": "Alexa Griffin",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "bugs": {
-        "url": "https://github.com/alexa-griffin/ariake-dark-2.0/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/alexa-griffin/ariake-dark-2.0.git"
-    },
-    "homepage": "https://github.com/Microsoft/vscode-cpptools",
-    "qna": "https://github.com/alexa-griffin/ariake-dark-2.0/issues",
-    "keywords": [
-        "C/C++",
-        "C",
-        "C++",
-        "Ariake",
-        "Dark",
-        "Theme"
-    ],
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "id": "Ariake Dark 2.0",
-                "label": "Ariake Dark 2.0",
-                "uiTheme": "vs-dark",
-                "path": "./themes/ariake-dark.json"
-            }
-        ]
-    }
+  "name": "ariake-dark-20",
+  "displayName": "Ariake Dark 2.0",
+  "description": "A more complete Ariake Dark theme.",
+  "version": "1.1.1",
+  "publisher": "AlexaGriffin",
+  "preview": false,
+  "readme": "README.md",
+  "author": "Alexa Griffin",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alexa-griffin/ariake-dark-2.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexa-griffin/ariake-dark-2.0.git"
+  },
+  "homepage": "https://github.com/Microsoft/vscode-cpptools",
+  "qna": "https://github.com/alexa-griffin/ariake-dark-2.0/issues",
+  "keywords": [
+    "C/C++",
+    "C",
+    "C++",
+    "Ariake",
+    "Dark",
+    "Theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Ariake Dark 2.0",
+        "label": "Ariake Dark 2.0",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ariake-dark.json"
+      }
+    ]
+  }
 }
