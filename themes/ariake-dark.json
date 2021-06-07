@@ -5,7 +5,7 @@
     "editor.lineHighlightBackground": "#65737e30",
     "editor.background": "#1F212A",
     "editorCursor.foreground": "#c0c5ce",
-    "editor.selectionBackground": "#4f5b66",
+    "editor.selectionBackground": "#343d46",
     "editor.foreground": "#c0c5ce",
     "editorWhitespace.foreground": "#65737e",
     "editorIndentGuide.background": "#3b5364",
@@ -66,7 +66,10 @@
       }
     },
     {
-      "scope": ["meta.embedded", "source.groovy.embedded"],
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded"
+      ],
       "settings": {
         "foreground": "#D4D4D4"
       }
@@ -90,9 +93,12 @@
       }
     },
     {
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
-        "foreground": "#555C77"
+        "foreground": "#555C77",
       }
     },
     {
@@ -102,7 +108,9 @@
       }
     },
     {
-      "scope": ["constant.numeric"],
+      "scope": [
+        "constant.numeric"
+      ],
       "settings": {
         "foreground": "#9AEFEA"
       }
@@ -227,7 +235,10 @@
       }
     },
     {
-      "scope": ["meta.preprocessor.string", "punctuation.definition.string"],
+      "scope": [
+        "meta.preprocessor.string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#9AEFEA"
       }
@@ -305,7 +316,9 @@
     },
     {
       "name": "Reset JavaScript string interpolation expression",
-      "scope": ["meta.template.expression"],
+      "scope": [
+        "meta.template.expression"
+      ],
       "settings": {
         "foreground": "#d4d4d4"
       }
@@ -480,7 +493,10 @@
       }
     },
     {
-      "scope": ["keyword.operator.new", "keyword.operator.delete"],
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.delete"
+      ],
       "settings": {
         "foreground": "#7E7EDD"
       }
