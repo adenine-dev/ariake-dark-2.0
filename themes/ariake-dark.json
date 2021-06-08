@@ -36,6 +36,8 @@
     "editorHoverWidget.border": "#343d46",
     "diffEditor.insertedTextBackground": "#43d08a10",
     "diffEditor.removedTextBackground": "#e052521a",
+    "editorGutter.modifiedBackground": "#4f71ff",
+    "editorGutter.addedBackground": "#4FFF95",
     "debugToolBar.background": "#1F212A",
     "debugIcon.stepIntoForeground": "#85b1e0",
     "debugIcon.stepOutForeground": "#85b1e0",
@@ -136,9 +138,20 @@
       }
     },
     {
-      "scope": "entity.other.attribute-name",
+      "scope": [
+        "entity.other.attribute-name",
+        "support.other.attribute"
+      ],
       "settings": {
         "foreground": "#dda2f6"
+      }
+    },
+    {
+      "scope": [
+        "support.other.attribute"
+      ],
+      "settings": {
+        "foreground": "#4f71ff"
       }
     },
     {
@@ -154,7 +167,7 @@
         "entity.other.attribute-name.scss"
       ],
       "settings": {
-        "foreground": "#b1b2f2"
+        "foreground": "#9494a8"
       }
     },
     {
@@ -272,6 +285,12 @@
       "scope": "storage.type",
       "settings": {
         "foreground": "#7E7EDD"
+      }
+    },
+    {
+      "scope": "storage.type.class.doxygen",
+      "settings": {
+        "foreground": "#808aad"
       }
     },
     {
@@ -432,7 +451,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#b9bed5"
+        "foreground": "#b8bed7"
       }
     },
     {
@@ -444,7 +463,7 @@
     {
       "scope": "entity.name.function.preprocessor",
       "settings": {
-        "foreground": "#a571f4"
+        "foreground": "#4F71FF"
       }
     },
     {
@@ -454,13 +473,16 @@
       }
     },
     {
-      "scope": "entity.name.namespace",
+      "scope": [
+        "entity.name.namespace",
+      ],
       "settings": {
         "foreground": "#b1b2f2"
       }
     },
     {
       "scope": [
+        "entity.name.scope-resolution",
         "entity.name.type",
         "entity.name.class",
         "support.class.component.js.jsx"
@@ -509,16 +531,10 @@
       }
     },
     {
-      "scope": "entity.name.function.member",
-      "settings": {
-        "foreground": "#BDC5E8"
-      }
-    },
-    {
       "scope": "variable.other.property",
       "settings": {
-        "foreground": "#BDC5E8"
+        "foreground": "#a0a1dd"
       }
-    }
+    },
   ]
 }
